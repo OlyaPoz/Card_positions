@@ -1,9 +1,5 @@
-body{
-  background-color: wheat;
-  
-}
 
- div {
+ .card {
    position: relative;
   width: 420px;
   color: white;
@@ -15,16 +11,13 @@ body{
   padding: 30px;
 }
 
-
 .card-sales {
-
   background-image: linear-gradient(90deg, rgba(255,190,154,1) 0%, rgba(255,131,131,1) 50%, rgba(255,142,170,1) 100%);
-
 }
 
-p {
+.cardHeader, .text-bottom {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .icon {
@@ -32,7 +25,7 @@ p {
  margin-left: 200px;
 }
 
-span{
+.cardStatistic {
   margin-top: 0;
   font-size: 40px;
   font-weight: 700;
@@ -43,12 +36,10 @@ span{
 }
 
 .card-orders {
-  
   background-image: linear-gradient(90deg, rgba(139,200,244,1) 0%, rgba(66,165,233,1) 50%, rgba(15,139,220,1) 100%);;
 }
 
 .card-online {
-  
   background-image: linear-gradient(90deg, rgba(127,216,210,1) 0%, rgba(44,211,193,1) 52%, rgba(0,208,182,1) 100%);;
 }
 
@@ -64,7 +55,6 @@ span{
   position: absolute;
   top: -20px;
   left: 70%;
-  
 }
 
 .bottom-circle {
